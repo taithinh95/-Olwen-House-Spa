@@ -1,0 +1,54 @@
+.services1 {
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 40px 25px;
+    border: 2px solid #fff;
+
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.service1-active{
+    background: #51A65E;
+    border: 2px solid #51A65E;
+    color: #000;
+}
+.services1:hover{
+    background: #51A65E;
+    border: 2px solid #51A65E;
+    color: #000;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+}
+
+
+section {
+    display: block;
+}
+.services1 .icon {
+    line-height: 1.3;
+    position: relative;
+}
+.services1 .icon span {
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.2);
+    color: #f18c8e;
+}
+.flaticon-makeup:before {
+    content: "\f100";
+}
+
+.services1 .media-body h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.no-gutters > .col, .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
